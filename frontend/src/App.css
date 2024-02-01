@@ -1,0 +1,63 @@
+/* App.css */
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  margin: 0;
+  padding: 0;
+  display: flex; /* Centraliza verticalmente */
+  align-items: center; /* Centraliza verticalmente */
+  justify-content: center; /* Centraliza horizontalmente */
+  height: 100vh; /* Altura da tela inteira */
+}
+
+.App {
+  max-width: 900px; /* Aumento horizontal */
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  text-align: center; /* Centraliza o texto */
+}
+
+h1 {
+  color: #007bff;
+}
+
+h5 {
+  color: #28a745;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  align-items: center; /* Centraliza horizontalmente */
+}
+
+/* Botões de tamanho uniforme */
+button {
+  padding: 10px 20px; /* Ajuste o tamanho horizontal conforme necessário */
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* Estilos para mensagens de erro */
+.error {
+  color: red;
+  font-size: 14px;
+}
+
+/* Resto dos estilos permanece o mesmo */
+
+
+/* Estilos para mensagens de erro */
+.error {
+  color: red;
+  font-size: 14px;
+}
+
+/* Resto dos estilos permanece o mesmo */
