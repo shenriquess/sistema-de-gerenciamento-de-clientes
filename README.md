@@ -4,9 +4,12 @@
 Este é um sistema simples de gerenciamento de clientes que permite adicionar clientes com informações como nome, email, telefone e coordenadas. Ele também fornece a funcionalidade de calcular a rota mínima para visitar todos os clientes.
 
 ## Ferramentas Utilizadas
-- Node.js: O sistema é construído em Node.js, uma plataforma de tempo de execução JavaScript.
-- Express.js: É utilizado o Express.js para criar o servidor web e fornecer as rotas da API.
-- PostgreSQL: O banco de dados PostgreSQL é usado para armazenar informações dos clientes e coordenadas.
+- **Node.js (v20.11.0)**: O sistema é construído em Node.js, uma plataforma de tempo de execução JavaScript.
+- **Express.js (v4.18.2)**: Utilizado para criar o servidor web e fornecer as rotas da API.
+- **PostgreSQL (v16.1)**: Banco de dados usado para armazenar informações dos clientes e coordenadas.
+- **npm (v10.2.4)**: Gerenciador de pacotes para o Node.js, usado para gerenciar as dependências do projeto.
+- **Git (v2.43.0)**: Sistema de controle de versão para rastrear alterações no código-fonte durante o desenvolvimento de software.
+
 
 ## Configuração do Banco de Dados
 
