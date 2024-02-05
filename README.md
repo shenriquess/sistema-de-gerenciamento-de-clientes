@@ -22,8 +22,8 @@ CREATE TABLE clientes (
     nome VARCHAR(255) NOT NULL,
     email VARCHAR(255) NOT NULL,
     telefone VARCHAR(20) NOT NULL,
-    coordenada_x INTEGER NOT NULL,
-    coordenada_y INTEGER NOT NULL
+    coordenada_x DOUBLE NOT NULL,
+    coordenada_y DOUBLE NOT NULL
 );
 ```
 
